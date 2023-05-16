@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+p,
+p em {
+    font-style: normal;
+    line-height: 28px;
+    font-size: 18px;
+    color:hsla(212, 10%, 33%, 0.663);
+    margin-top: 20px;
+}
+
+.clipboard-header {
+    background-image: url('images/bg-header-mobile.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: ' Bai Jamjuree';
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 12rem;
+}
+
+.clipboard-header img {
+    width: 125px;
+    height: 125px;
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+
+.clipboard-header h1 {
+    width: 95%;
+    font-size: 42px;
+}
+
+.clipboard-header p {
+    width: min(95%, 605px);
+    margin-bottom: 1.6rem;
+}
+
+.clipboard-header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+button {
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    width: min(90%, 335px);
+    margin-top: 20px;
+    font-size: inherit;
+    font-weight: 900;
+    border: none;
+    border-radius: 40px;
+    padding: 18px 0;
+    border-bottom: hsla(171, 66%, 44%, 0.489);
+    box-shadow: 0 4px 20px 3px hsla(171, 66%, 44%, 0.3);
+    cursor: pointer;
+}
+
+div button:last-child {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px 15px 5px hsla(233, 100%, 69%, 0.3);
+}
+
+@media (min-width: 610px) {
+    .clipboard-header {
+        background-image: url('images/bg-header-desktop.png');
+    }
+
+    .clipboard-header div {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    button {
+        width: 230px;
+    }
+}
+
+.clipboard-features {
+    padding-bottom: 12rem;
+}
+
+.clipboard-features p {
+    width: min(99%, 693px);
+    margin: 20px auto 0 auto;
+}
+
+.clipboard-features img {
+    width: min(99%, 900px);
+    margin-top: 80px;
+}
+
+.clipboard-features h2,
+.clipboard-features h3 {
+    font-size: 36px;
+    color: hsl(210, 10%, 33%);
+}
+
+.clipboard-features h3 {
+    font-size: 30px;
+}
+
+.clipboard-features > div > div {
+    margin-top: 60px;
+}
+
+.clipboard-features article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.clipboard-features article p {
+    width: min(99%, 500px);
+    margin: 20px 0 0 0;
+}
+
+@media (min-width: 1400px) {
+    .clipboard-features > div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .clipboard-features > div > div {
+        padding-left: 120px;
+    }
+
+    .clipboard-features article {
+        align-items: flex-start;
+    }
+
+    .clipboard-features article p {
+        width: min(99%, 363px);
+        text-align: left;
+    }
+
+    .clipboard-features img {
+        margin-left: 20px;
+    }
+}
+
+.clipboard-accessibility {
+    padding-bottom: 7rem;
+}
+
+.clipboard-accessibility h2 {
+    font-size: 36px;
+    color: hsl(210, 10%, 33%);
+}
+
+.clipboard-accessibility p {
+    width: min(99%, 684px);
+    margin: 20px auto 0 auto;   
+}
+
+.clipboard-accessibility img {
+    width: min(99%, 900px);
+    margin-top: 80px;
+}
+
+.clipboard-workflow {
+    padding-bottom: 9rem;
+}
+
+.clipboard-workflow h2 {
+    font-size: 36px;
+    color:hsl(210, 10%, 33%);
+}
+
+.clipboard-workflow h3 {
+    font-size: 30px;
+    color:hsl(210, 10%, 33%);
+}
+
+.clipboard-workflow p {
+    width: min(450px, 99%);
+    text-align: center;
+    margin: 0 auto;
+}
+
+i {
+    font-size: 30px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color:hsl(210, 10%, 33%);
+}
+
+@media (min-width: 950px) {
+    .clipboard-workflow > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .clipboard-workflow p {
+        text-align: center;
+    }
+
+    .clipboard-workflow article {
+        width: 33%;
+    }
+}
+
+.clipboard-companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 9rem;
+}
+
+.clipboard-companies img {
+    width: 165px;
+}
+
+@media (min-width: 950px) {
+    .clipboard-companies {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-around;
+    }
+}
+
+.clipboard-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 12rem;
+}
+
+.clipboard-bottom h2 {
+    font-size: 36px;
+    width: 95%;
+    color:hsl(210, 10%, 33%);
+}
+
+.clipboard-bottom p {
+    width: min(680px, 95%);
+}
+
+.clipboard-bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (min-width: 610px) {
+    .clipboard-bottom div {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+.clipboard-footer {
+    background-color:hsla(212, 10%, 33%, 0.086);
+    padding: 1rem;
+}
+
+.clipboard-footer img { 
+    width: 60px;
+    margin: 2rem 0;
+}
+
+.clipboard-footer ul li { 
+    font-size: 18px;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+.clipboard-footer > div {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.clipboard-footer div i {
+    margin: 3rem 0;
+}
+
+@media (min-width: 955px) {
+    .clipboard-footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clipboard-footer ul { 
+        display: flex;
+        margin-left: -5rem;
+    }
+
+    .clipboard-footer ul li { 
+        text-align: left;
+        padding: 1.2rem;
+    }
+
+    .clipboard-footer > div {
+        gap: 1.5rem;
+    }
+}
+
