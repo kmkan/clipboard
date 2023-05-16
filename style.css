@@ -234,6 +234,7 @@ i {
         flex-direction: row;
         gap: 0;
         justify-content: space-around;
+        width: min(100%, 1440px);
     }
 }
 
