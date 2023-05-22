@@ -288,6 +288,11 @@ i {
     list-style-type: none;
 }
 
+.clipboard-footer ul li:hover,
+.clipboard-footer i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
 .clipboard-footer > div {
     display: flex;
     gap: 3rem;
