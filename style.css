@@ -291,6 +291,7 @@ i {
 .clipboard-footer ul li:hover,
 .clipboard-footer i:hover {
     color: hsl(171, 66%, 44%);
+    cursor: pointer;
 }
 
 .clipboard-footer > div {
